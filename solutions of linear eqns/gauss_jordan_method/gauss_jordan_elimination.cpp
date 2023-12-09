@@ -26,7 +26,7 @@ void calculate(float **matrix,int size){
         for(int i=0;i<size;i++){
             
             if(i!=j){  //eliminating a[i][j];
-               temp=matrix[i][j]/matrix[j][j];//so that k loop doesnt interfere as matrix updates
+               temp=matrix[i][j]/matrix[j][j];
                                               // this is not for division but for storing 
                                             //preserving the value
                for(int k=0;k<size+1;k++){
