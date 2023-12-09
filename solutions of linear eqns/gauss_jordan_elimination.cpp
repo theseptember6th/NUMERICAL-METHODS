@@ -22,7 +22,7 @@ void Display(float **matrix,int size){
 
 void calculate(float **matrix,int size){
     float temp=0;
-    for(int j=0;j<size;j++){
+    for(int j=0;j<size;j++){   // we are doing column wise operation thats why column j is first
         for(int i=0;i<size;i++){
             
             if(i!=j){  //eliminating a[i][j];
