@@ -55,7 +55,7 @@ int main()
     cin >> row;
     column = row + 1;
 
-    float **matrix = new float *[column];
+    float **matrix = new float *[row];
     for (int i = 0; i < row; i++)
     {
         matrix[i] = new float[column];
