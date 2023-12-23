@@ -30,7 +30,7 @@ void Secant(float a,float b,float error){
            }
            count++;
            if(count>=100){
-            cout<<"\nITERATED for 100 times ,couldnt find the roots\n";
+            cout<<"\nITERATED for 100 times ,couldnt find the  roots\n";
             exit(0);
            }
        }while(abs(function_(c))>error);
