@@ -152,7 +152,7 @@ float calculateDeterminant(float **matrix, int row)
 int main()
 {
     int row, column;
-    cout << "Enter the row of the matrix: \n";
+    cout << "Enter the row of the square matrix: \n";
     cin >> row;
     column = row + row;
 
