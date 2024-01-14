@@ -47,7 +47,7 @@ void calculate(float **matrix,int size){
 
 }
 
-int main()
+int main() 
 {
 
     int row, column;
