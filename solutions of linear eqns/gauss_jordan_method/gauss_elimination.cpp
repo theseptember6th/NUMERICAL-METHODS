@@ -49,11 +49,9 @@ void upper_Triangular(float **matrix,int size){
     float temp=0;
     for(int j=0;j<size-1;j++){   
         for(int i=j+1;i<size;i++){
-            if(i!=j){  
                temp=matrix[i][j]/matrix[j][j];
-               for(int k=0;k<size+1;k++){
+               for(int k=j;k<size+1;k++){
                 matrix[i][k]=matrix[i][k]-temp*matrix[j][k];
-               }
             }    
         }
     }
